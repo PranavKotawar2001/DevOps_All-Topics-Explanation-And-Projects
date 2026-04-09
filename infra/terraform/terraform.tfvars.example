@@ -1,0 +1,6 @@
+aws_region            = "us-east-1"
+environment           = "dev"
+ecs_desired_count     = 2
+# Set to "owner/repo" to provision CodeBuild (requires GitHub OAuth in AWS Console for CodeBuild)
+codebuild_github_repo = ""
+codebuild_branch      = "main"
